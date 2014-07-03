@@ -1,0 +1,10 @@
+This project uses cmake.
+On Linux, for on out-of-source build, type:
+
+(...)/boxnet$ mkdir build
+(...)/boxnet$ cd build
+(...)/boxnet/build$ cmake ..
+(...)/boxnet/build$ make
+
+To get started, look at the "how_to_use" example in the doc directory.
+
