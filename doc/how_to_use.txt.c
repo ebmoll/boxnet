@@ -8,7 +8,7 @@
 
 #include "boxnet.h"
 #include "stdio.h"
-void main(void) {
+int main(void) {
 
 // Let's say, you want to collide Circles defined by:
 
@@ -107,7 +107,8 @@ void main(void) {
 
 // To free all memory that was allocated by the boxnet algorithm, call:
     Boxnet_free( my_space );
-
+	
+	return 0;
 }
 
 
