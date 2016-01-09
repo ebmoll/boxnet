@@ -83,7 +83,7 @@ int main(void) {
 
     Boxnet_collide(my_space, collision, "nothing");
 
-// Now move your objects again, update the bounding boxes#
+// Now move your objects again, update the bounding boxes
 // like above, and call Boxnet_collide() again, and so on.
 // If you move your circles around, make sure to update the bounding box
 // information like so:

@@ -1,10 +1,12 @@
 This project uses cmake.
-On Linux, for on out-of-source build, type:
+On Linux, for an out-of-source build, type:
 
 (...)/boxnet$ mkdir build
 (...)/boxnet$ cd build
-(...)/boxnet/build$ cmake ..
+(...)/boxnet/build$ cmake .. -DCMAKE_BUILD_TYPE=Release
 (...)/boxnet/build$ make
+
+For a debug-build, replace the "Release" with "Debug"
 
 To get started, look at the "how_to_use" example in the doc directory.
 
