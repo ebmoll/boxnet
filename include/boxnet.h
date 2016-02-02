@@ -5,6 +5,8 @@
 	Broadphase 2D collision detection using the boxnet algorithm
 */
 
+#ifndef INCLUDE_BOXNET_H
+#define INCLUDE_BOXNET_H
 
 // TODO: tune these numbers correctly, or replace the
 // simplistic memory allocation with something better.
@@ -64,3 +66,6 @@ void Boxnet_delbox(Boxnet* net, Box* box);
 void Boxnet_delbox_byusrdata(Boxnet* net, void* usrdata);
 void Boxnet_collide(Boxnet* net, collisionCallback func, void* data);
 
+
+
+#endif
