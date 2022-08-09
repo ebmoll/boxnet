@@ -1,6 +1,6 @@
 /*
 	Copyright 2012 Samuel Moll
-	License: LGPLv3
+	License: AGPLv3
 
 	Broadphase 2D collision detection using the boxnet algorithm
 */
