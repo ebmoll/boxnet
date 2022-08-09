@@ -1,6 +1,6 @@
 /*
 	Copyright 2012 Samuel Moll
-	License: LGPLv3
+	License: AGPLv3
 */
 
 // Everything you need to know to use boxnet in your C application
